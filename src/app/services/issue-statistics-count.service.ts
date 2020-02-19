@@ -17,13 +17,13 @@ export class IssueStatisticsCountService {
     {id:3, des:"ccccccccccccccc"},
     {id:4, des:"ddddddddddddddd"},
     {id:5, des:"eeeeeeeeeeeeeee"},
-    {id:6, des:"fffffffffffffff"},
-    {id:7, des:"ggggggggggggggg"},
-    {id:8, des:"hhhhhhhhhhhhhhh"},
-    {id:9, des:"iiiiiiiiiiiiiii"},
-    {id:10, des:"jjjjjjjjjjjjjjj"},
-    {id:11, des:"kkkkkkkkkkkkkkk"},
-    {id:12, des:"lllllllllllllll"},
+    // {id:6, des:"fffffffffffffff"},
+    // {id:7, des:"ggggggggggggggg"},
+    // {id:8, des:"hhhhhhhhhhhhhhh"},
+    // {id:9, des:"iiiiiiiiiiiiiii"},
+    // {id:10, des:"jjjjjjjjjjjjjjj"},
+    // {id:11, des:"kkkkkkkkkkkkkkk"},
+    // {id:12, des:"lllllllllllllll"},
   ];
   constructor() {}
 
