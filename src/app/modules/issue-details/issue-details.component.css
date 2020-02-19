@@ -3,7 +3,7 @@
     column-gap: 20px;
   
     padding: 5px;
-     margin-top: 130px;
+     margin-top: 30px;
 }
 * {
     box-sizing: border-box;
@@ -15,33 +15,34 @@
       margin-top: -250px;
   }
   
-  /* Create three equal columns that floats next to each other */
+  
   .column1 {
     float: left;
     width: 20%;
     padding: 10px;
     height: 700px; 
-    margin-top: 100px;/* Should be removed. Only for demonstration */
+    margin-top: 100px;
   }
   .column2 {
     float: left;
     width: 40%;
     padding: 10px;
-    height: 700px; /* Should be removed. Only for demonstration */
+    height: 700px; 
+    margin-top: 100px;
   }
   
   .column3 {
     float: left;
     width: 20%;
     padding: 10px;
-    height: 700px; /* Should be removed. Only for demonstration */
+    height: 700px; 
   }
 
   .column4 {
     float: left;
     width: 20%;
     padding: 10px;
-    height: 700px; /* Should be removed. Only for demonstration */
+    height: 700px; 
   }
   
   

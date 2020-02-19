@@ -1,13 +1,11 @@
-<!-- <table border=5>
-    <tr *ngFor="let i of issueCount">
-        <td>{{i.id}}</td>
-        <td>{{i.des}}</td>
-    </tr>
-</table> -->
-
-<ul>
-    <li *ngFor="let i of issueCount">
-        {{i.id}}<br>
-        {{i.des}}
-    </li>
-  </ul>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<div id="issueCount">
+    <ul>
+        <li *ngFor="let i of issueCount">
+            <i class='fas fa-plus-square'></i><pre>{{i.id}}</pre>
+            <pre>{{i.des}}</pre>
+            <hr align="left">
+        </li>
+    </ul>
+</div>
