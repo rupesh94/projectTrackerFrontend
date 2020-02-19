@@ -19,7 +19,7 @@
             <strong>List Saved!</strong> Your changes has been saved.
     </div> -->
     
-    <button (click) = toggleDisplay()>Details</button>
+    <button (click) = toggleDisplay() style="position:absolute;">Details</button>
      <!-- <label for = "details">Details</label> -->
      <div *ngIf = "!isShow">
            <option value="1">Type:</option>
@@ -40,8 +40,8 @@
         -->
 
         <div class="column3" style="background-color:white;">
-            <div class="container2">
-            <button (click) = toggleDisplay()>People</button>
+            <div class="containers">
+            <button (click) = toggleDisplay() style="position: absolute;">People</button>
             
             <div *ngIf = "!isShow">
                 <option value="1">Assignee:</option>

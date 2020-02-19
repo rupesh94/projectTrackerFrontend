@@ -8,8 +8,11 @@
 * {
     box-sizing: border-box;
   }
-  .container3{
+  .containers{
       margin-left: 500px;
+      position: absolute;
+      align-items: center;
+      margin-top: -250px;
   }
   
   /* Create three equal columns that floats next to each other */
