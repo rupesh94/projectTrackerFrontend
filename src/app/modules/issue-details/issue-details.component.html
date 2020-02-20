@@ -1,8 +1,12 @@
+<!-- <div class="issue" *ngFor='let details of IssueDetails 'style="text-align:center;">    
 
+  <h3 style="color:chocolate"> {{IssueDetails.id}}  {{IssueDetails.name}}</h3>
+  <h4 style="color: firebrick;"> {{IssueDetails.email}}</h4>
+  
+  </div> -->
  <div class="row">
     <div class="column1" style="background-color:#aaa;">
       <h2></h2>
-     
     </div>
     <div class="column2" style="background-color:white;">
       <h2>NaaS Campaign - Sharing Campaign </h2>
@@ -14,13 +18,14 @@
         <button type="button" style="margin: 5px;" >Close Issue</button>
         <button type="button" style="margin: 5px;" >Dev Started</button>
        </div>
-       <!-- <div class="container1">
-        <div *ngFor="let obj of listOfObjects" *ngIf="obj.edited" class="alert alert-success box-msg" role="alert">
-            <strong>List Saved!</strong> Your changes has been saved.
-    </div> -->
+      
     
-    <button (click) = toggleDisplay() style="position:absolute;">Details</button>
-     <!-- <label for = "details">Details</label> -->
+    <button (click) = toggleDisplay() class="detail">Details</button>
+    <!-- <div class="issue" *ngFor='let details of IssueDetails 'style="text-align:center;">    
+
+  <h3 style="color:chocolate"> {{IssueDetails.id}}  {{IssueDetails.name}}</h3>
+  <h4 style="color: firebrick;"> {{IssueDetails.email}}</h4>
+     -->
      <div *ngIf = "!isShow">
            <option value="1">Type:</option>
            <option value="2">Priority:</option>
@@ -34,25 +39,24 @@
            <option value="10">Automation Required:</option>
           </div>
           
-      <!-- <ul>
-        <li *ngFor="let value of values" (click)="selectItem(value.value)">{{value.label}}</li>
-      </ul>
-        -->
+     
 
         <div class="column3" style="background-color:white;">
             <div class="containers">
-            <button (click) = toggleDisplay() style="position: absolute;">People</button>
+            <button (click) = Display() style="">People</button>
             
-            <div *ngIf = "!isShow">
-                <option value="1">Assignee:</option>
+            <div *ngIf = "!showMe">
+
+              <option value="1">Assignee:</option>
                 <option value="2">Reporter:</option>
                 <option value="3">Assign Watcher:</option>
                 <option value="4">Votes:</option>
                 <option value="5">Watcher:</option>
-                    </div>
-
-                </div>
-      <h2></h2>
+                
+               </div>
+               </div>
+                  
+               
       </div>
       <div class="column4" style="background-color:white;"></div>
   </div>

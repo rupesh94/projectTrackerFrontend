@@ -10,6 +10,8 @@ import { HeaderComponent } from './modules/header/header.component';
 import { IssueDetailsService } from './services/issue-details.service';
 import { IssueDetailsModule } from './modules/issue-details/issue-details.module';
 import { IssueDetailsComponent } from './modules/issue-details/issue-details.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { IssueDetailsRoutingModule } from './modules/issue-details/issue-details.routing.module';
 
 @NgModule({
   declarations:[
@@ -24,9 +26,11 @@ import { IssueDetailsComponent } from './modules/issue-details/issue-details.com
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    HttpClientModule,
+    IssueDetailsRoutingModule
     
   ],
-  providers: [],
+  providers: [IssueDetailsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

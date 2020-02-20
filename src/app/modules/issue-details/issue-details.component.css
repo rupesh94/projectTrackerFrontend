@@ -1,34 +1,38 @@
 .container{
     margin-right: 26px;
     column-gap: 20px;
-  
-    padding: 5px;
+     padding: 5px;
      margin-top: 30px;
+     
 }
 * {
     box-sizing: border-box;
   }
   .containers{
-      margin-left: 500px;
+      margin-left: 700px;
       position: absolute;
-      align-items: center;
+      /* align-items: center; */
       margin-top: -250px;
+      float: left;
   }
-  
+  .detail{
+
+    position:absolute;
+  }
   
   .column1 {
     float: left;
     width: 20%;
     padding: 10px;
     height: 700px; 
-    margin-top: 100px;
+    margin-top: 70px;
   }
   .column2 {
     float: left;
     width: 40%;
     padding: 10px;
     height: 700px; 
-    margin-top: 100px;
+    margin-top: 50px;
   }
   
   .column3 {
