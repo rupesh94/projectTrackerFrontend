@@ -12,8 +12,11 @@
       margin-left: 700px;
       position: absolute;
       /* align-items: center; */
-      margin-top: -250px;
+      margin-top: -100px;
       float: left;
+  }
+  .people{
+    margin-top: 200px;
   }
   .detail{
 

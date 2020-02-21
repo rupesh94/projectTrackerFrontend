@@ -1,6 +1,6 @@
 export interface IssueDetail{
     id:number;
-    name:string;
-    email:string;
+    title:string;
+    completed:string;
 
 }

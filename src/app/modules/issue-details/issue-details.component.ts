@@ -17,7 +17,7 @@ export class IssueDetailsComponent implements OnInit {
 
   ngOnInit() {
    this.issueDetailsService.getDetails()
-    .subscribe((issueDetail) => this.issueDetail=issueDetail )
+    .subscribe((Details) => this.issueDetail=Details)
   }
  
     toggleDisplay() {

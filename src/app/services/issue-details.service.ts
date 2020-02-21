@@ -7,7 +7,7 @@ import { HttpClient} from '@angular/common/http'
   providedIn: 'root'
 })
 export class IssueDetailsService {
-  apUrl='https://jsonplaceholder.typicode.com/posts'
+  apUrl='https://jsonplaceholder.typicode.com/todos'
 
   constructor(private _http:HttpClient) { }
 
