@@ -9,6 +9,8 @@ import { issueStatisticsCount } from 'src/app/interfaces/issue-statistics-count'
 })
 export class IssueStatisticsCountComponent implements OnInit {
 
+  isShow = false;
+  showMe = false;
   issueCount:issueStatisticsCount[];
 
   constructor(private issueCountService:IssueStatisticsCountService) { }
@@ -16,5 +18,13 @@ export class IssueStatisticsCountComponent implements OnInit {
   ngOnInit() {
       this.issueCountService.getData().subscribe(data =>this.issueCount=data)
   }
+
+  toggleDisplay(){
+    this.isShow = !this.isShow;
+  }
+
+  // display(){
+  //   this.showMe = !this.showMe;
+  // }
 
 }

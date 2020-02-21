@@ -1,4 +1,4 @@
 export interface issueStatisticsCount{
-    id:number;
+    id:string;
     des:string;
 }
