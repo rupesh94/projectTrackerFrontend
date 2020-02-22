@@ -1,0 +1,63 @@
+<!-- <div class="issue" *ngFor='let details of IssueDetails 'style="text-align:center;">    
+
+  <h3 style="color:chocolate"> {{IssueDetails.id}}  {{IssueDetails.name}}</h3>
+  <h4 style="color: firebrick;"> {{IssueDetails.email}}</h4>
+  
+  </div> -->
+ <div class="row">
+    <div class="column1" style="background-color:#aaa;">
+     
+    </div>
+    <div class="column2" style="background-color:white;">
+      <h2>NaaS Campaign - Sharing Campaign </h2>
+      <div class='container'>
+        <button type="button" style="margin: 5px;" >Edit</button>
+        <button type="button" style="margin: 5px;" >Comment</button>
+        <button type="button" style="margin: 5px;" >Assign</button>
+        <button type="button" style="margin: 5px;">More</button>
+        <button type="button" style="margin: 5px;" >Close Issue</button>
+        <button type="button" style="margin: 5px;" >Dev Started</button>
+       </div>
+      
+    
+    <button (click) = toggleDisplay() class="detail">Details</button> 
+
+     <!-- <div class="issue" *ngFor='let d of issueDetail'>
+      {{d.id}}
+      {{d.title}}
+      {{d.body}}
+  </div>  -->
+    
+   
+      <div *ngIf = "!isShow" >
+           <option value="1">Type:</option>
+           <option value="2">Priority: </option>
+           <option value="3">Component/s: </option>
+           <option value="4">Issue Source:</option>
+           <option value="5">Severity:</option>
+           <option value="6">UAT Required:</option>
+           <option value="7">UAT Completed:</option>
+           <option value="8">Ranking:</option>
+           <option value="9">Observed:</option>
+           <option value="10">Automation Required:</option>
+        </div>  
+      </div>
+
+        <div class="column3" style="background-color:white;">
+            <div class="containers"></div>
+            <button (click) = Display() class="people">People</button>
+            
+            <div *ngIf = "!showMe">
+
+              <option value="1">Assignee:</option>
+                <option value="2">Reporter:</option>
+                <option value="3">Assign Watcher:</option>
+                <option value="4">Votes:</option>
+                <option value="5">Watcher:</option>
+                
+
+               </div>
+                   </div>
+      <div class="column4" style="background-color:white;"></div>
+  </div>
+ 

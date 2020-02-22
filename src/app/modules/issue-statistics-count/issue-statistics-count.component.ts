@@ -9,8 +9,7 @@ import { issueStatisticsCount } from 'src/app/interfaces/issue-statistics-count'
 })
 export class IssueStatisticsCountComponent implements OnInit {
 
-  isShow = false;
-  showMe = false;
+  isShow = true;
   issueCount:issueStatisticsCount[];
 
   constructor(private issueCountService:IssueStatisticsCountService) { }
