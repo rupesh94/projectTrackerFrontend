@@ -22,8 +22,5 @@ export class IssueStatisticsCountComponent implements OnInit {
     this.isShow = !this.isShow;
   }
 
-  // display(){
-  //   this.showMe = !this.showMe;
-  // }
 
 }
