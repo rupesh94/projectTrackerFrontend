@@ -12,6 +12,7 @@ import { IssueDetailsModule } from './modules/issue-details/issue-details.module
 import { IssueDetailsComponent } from './modules/issue-details/issue-details.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { IssueDetailsRoutingModule } from './modules/issue-details/issue-details.routing.module';
+// import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations:[
@@ -27,7 +28,8 @@ import { IssueDetailsRoutingModule } from './modules/issue-details/issue-details
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    IssueDetailsRoutingModule
+    IssueDetailsRoutingModule,
+    // NgbModule
     
   ],
   providers: [IssueDetailsService],

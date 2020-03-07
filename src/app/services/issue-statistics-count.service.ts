@@ -12,8 +12,8 @@ import { of } from 'rxjs'
 export class IssueStatisticsCountService {
   
   private demoData : issueStatisticsCount[]=[
-    {id:"121", des:"aaaaaaaaaaaaaaa"},
-    {id:"122", des:"bbbbbbbbbbbbbbb"},
+    {id:"121", des:"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},
+    {id:"122", des:"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"},
     {id:"123", des:"ccccccccccccccc"},
     {id:"124", des:"ddddddddddddddd"},
     {id:"125", des:"eeeeeeeeeeeeeee"},
